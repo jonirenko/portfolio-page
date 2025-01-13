@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styling for Header component */
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+    background-image: url('./images/header-photo.jpg');
+    background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home-link {
+    width: 500px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Styling for Navbar component */
+
+.navbar {
+    background-color: darkgrey;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.nav-item {
+    height: 80px;
+}
+
+/* Styling for the Home page */
+
+.home-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 68, 77);
+}
+
+.home-photo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.home-bio-container {
+    width: 75vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling for Footer component */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategrey;
+    height: 30vh;
 }
