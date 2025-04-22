@@ -76,7 +76,7 @@
 
 /* Styling for the Home page */
 
-.home-container, .webdev-container {
+.home-container, .webdev-container, .music-container {
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
@@ -91,19 +91,19 @@
     margin-bottom: 20px;
 }
 
-.home-bio-container, .webdev {
+.home-bio-container, .webdev, .music {
     width: 75vw;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.webdev-text p {
+.webdev-text p, .music p {
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.webdev h2 {
+.webdev h2, .music h2 {
     margin-top: 15px;
 }
 
