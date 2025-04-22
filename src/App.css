@@ -76,7 +76,7 @@
 
 /* Styling for the Home page */
 
-.home-container {
+.home-container, .webdev-container {
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
@@ -91,11 +91,20 @@
     margin-bottom: 20px;
 }
 
-.home-bio-container {
+.home-bio-container, .webdev {
     width: 75vw;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.webdev-text p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.webdev h2 {
+    margin-top: 15px;
 }
 
 /* Styling for Footer component */

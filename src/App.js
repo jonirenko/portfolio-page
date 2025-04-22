@@ -2,7 +2,7 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from "./pages/Home";
-import Programming from "./pages/Programming";
+import WebDevelopement from "./pages/WebDevelopement";
 import Music from "./pages/Music";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -16,7 +16,7 @@ function App() {
         <Navbar />
           <Routes>
             <Route path='/' exact Component={Home} />
-            <Route path='/programming' exact Component={Programming} />
+            <Route path='/webdevelopement' exact Component={WebDevelopement} />
             <Route path='/music' exact Component={Music} />
           </Routes>
         <Footer />

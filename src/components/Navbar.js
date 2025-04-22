@@ -12,8 +12,8 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/programming' className='nav-link'>
-                        Programming
+                    <Link to='/webdevelopement' className='nav-link'>
+                        Web Developement
                     </Link>
                 </li>
                 <li className='nav-item'>
