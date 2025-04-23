@@ -1,0 +1,1 @@
+One of my strongest skills in web developement is working with ReactJS framework. I built this portfolio page using React. In addition I've learned some amount of mobile development using React Native. Every now and then I work on some smaller projects to keep my skills up to date. I've listed a few examples below.
