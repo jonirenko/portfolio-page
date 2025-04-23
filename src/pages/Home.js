@@ -15,6 +15,8 @@ function Home() {
                     <h1>Who is Joni Renko?</h1>
 
                    <BioText />
+
+                   <p>I go into further details about all of this in this portfolio.</p>
                 </div>
             </div>
         </div>
