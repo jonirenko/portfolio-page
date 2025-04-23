@@ -84,6 +84,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(68, 68, 77);
+    width: 100vw;
 }
 
 .home-photo {
@@ -98,7 +99,7 @@
     text-align: center;
 }
 
-.webdev-text p, .music p {
+.webdev-text p, .music p, .bio-text p {
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -115,6 +116,7 @@
     align-items: center;
     background-color: slategrey;
     height: 30vh;
+    width: 100vw;
 }
 
 .linkedin {
