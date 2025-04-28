@@ -30,8 +30,8 @@ export function SongwritingText({fileName}) {
                     <iframe title='spotify-player' width="460" height="355" src="https://open.spotify.com/embed/album/0mg42Kj98OdgMuh38yKbu3?utm_source=generator" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
                 <div className='embed'>
-                    <h3>Death March - My original song</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HdK2mJogi60?si=zeD-RwYe7oWiY4uE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3>Children of the Frost - Castaway (single)</h3>
+                    <iframe title='spotify-player' src="https://open.spotify.com/embed/album/2IqzEpTAj7V7WzoeZLu44k?utm_source=generator" width="460" height="355" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
             </div>
         </>
