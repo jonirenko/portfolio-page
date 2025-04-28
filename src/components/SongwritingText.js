@@ -12,11 +12,10 @@ const getSongsText = async () => {
 };
 
 export function SongwritingText({fileName}) {
-    const [text, setText] = useState("");
-            
-                useEffect(() => {
-                        getSongsText(`${fileName}.txt`).then(setText).catch(console.error);
-                    },[fileName]);
+    const [text, setText] = useState("");             
+         useEffect(() => {
+        getSongsText(`${fileName}.txt`).then(setText).catch(console.error);}
+        ,[fileName]);
     
     return (
         <>
